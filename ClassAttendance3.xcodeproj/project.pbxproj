@@ -12,7 +12,22 @@
 		8FCCEC921E8BED8600EF0068 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FCCEC901E8BED8600EF0068 /* Main.storyboard */; };
 		8FCCEC941E8BED8600EF0068 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FCCEC931E8BED8600EF0068 /* Assets.xcassets */; };
 		8FCCEC971E8BED8600EF0068 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FCCEC951E8BED8600EF0068 /* LaunchScreen.storyboard */; };
+		8FCCECA11E8BFBEF00EF0068 /* ClassAttendance3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8FCCEC9F1E8BFBEF00EF0068 /* ClassAttendance3.xcdatamodeld */; };
+		8FCCECA41E8BFC9F00EF0068 /* Student+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCCECA21E8BFC9F00EF0068 /* Student+CoreDataClass.swift */; };
+		8FCCECA51E8BFC9F00EF0068 /* Student+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCCECA31E8BFC9F00EF0068 /* Student+CoreDataProperties.swift */; };
+		8FCCECA71E8C001F00EF0068 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCCECA61E8C001F00EF0068 /* DataController.swift */; };
+		8FCCECB71E8C08A100EF0068 /* CoreDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCCECB61E8C08A100EF0068 /* CoreDataTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8FCCECB11E8C03AB00EF0068 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FCCEC811E8BED8600EF0068 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FCCEC881E8BED8600EF0068;
+			remoteInfo = ClassAttendance3;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		8FCCEC891E8BED8600EF0068 /* ClassAttendance3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClassAttendance3.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,10 +37,24 @@
 		8FCCEC931E8BED8600EF0068 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8FCCEC961E8BED8600EF0068 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8FCCEC981E8BED8600EF0068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FCCECA01E8BFBEF00EF0068 /* ClassAttendance3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ClassAttendance3.xcdatamodel; sourceTree = "<group>"; };
+		8FCCECA21E8BFC9F00EF0068 /* Student+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataClass.swift"; sourceTree = "<group>"; };
+		8FCCECA31E8BFC9F00EF0068 /* Student+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8FCCECA61E8C001F00EF0068 /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		8FCCECAC1E8C03AB00EF0068 /* ClassAttendance3UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClassAttendance3UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FCCECB01E8C03AB00EF0068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FCCECB61E8C08A100EF0068 /* CoreDataTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8FCCEC861E8BED8600EF0068 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FCCECA91E8C03AB00EF0068 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				8FCCEC8B1E8BED8600EF0068 /* ClassAttendance3 */,
+				8FCCECAD1E8C03AB00EF0068 /* ClassAttendance3UnitTests */,
 				8FCCEC8A1E8BED8600EF0068 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				8FCCEC891E8BED8600EF0068 /* ClassAttendance3.app */,
+				8FCCECAC1E8C03AB00EF0068 /* ClassAttendance3UnitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,6 +85,7 @@
 		8FCCEC8B1E8BED8600EF0068 /* ClassAttendance3 */ = {
 			isa = PBXGroup;
 			children = (
+				8FCCEC9E1E8BFB9400EF0068 /* Model */,
 				8FCCEC8C1E8BED8600EF0068 /* AppDelegate.swift */,
 				8FCCEC8E1E8BED8600EF0068 /* ViewController.swift */,
 				8FCCEC901E8BED8600EF0068 /* Main.storyboard */,
@@ -62,6 +94,26 @@
 				8FCCEC981E8BED8600EF0068 /* Info.plist */,
 			);
 			path = ClassAttendance3;
+			sourceTree = "<group>";
+		};
+		8FCCEC9E1E8BFB9400EF0068 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8FCCECA21E8BFC9F00EF0068 /* Student+CoreDataClass.swift */,
+				8FCCECA31E8BFC9F00EF0068 /* Student+CoreDataProperties.swift */,
+				8FCCEC9F1E8BFBEF00EF0068 /* ClassAttendance3.xcdatamodeld */,
+				8FCCECA61E8C001F00EF0068 /* DataController.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8FCCECAD1E8C03AB00EF0068 /* ClassAttendance3UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				8FCCECB61E8C08A100EF0068 /* CoreDataTests.swift */,
+				8FCCECB01E8C03AB00EF0068 /* Info.plist */,
+			);
+			path = ClassAttendance3UnitTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +136,24 @@
 			productReference = 8FCCEC891E8BED8600EF0068 /* ClassAttendance3.app */;
 			productType = "com.apple.product-type.application";
 		};
+		8FCCECAB1E8C03AB00EF0068 /* ClassAttendance3UnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FCCECB31E8C03AB00EF0068 /* Build configuration list for PBXNativeTarget "ClassAttendance3UnitTests" */;
+			buildPhases = (
+				8FCCECA81E8C03AB00EF0068 /* Sources */,
+				8FCCECA91E8C03AB00EF0068 /* Frameworks */,
+				8FCCECAA1E8C03AB00EF0068 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FCCECB21E8C03AB00EF0068 /* PBXTargetDependency */,
+			);
+			name = ClassAttendance3UnitTests;
+			productName = ClassAttendance3UnitTests;
+			productReference = 8FCCECAC1E8C03AB00EF0068 /* ClassAttendance3UnitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -98,6 +168,12 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = PXWVL754BD;
 						ProvisioningStyle = Automatic;
+					};
+					8FCCECAB1E8C03AB00EF0068 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PXWVL754BD;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8FCCEC881E8BED8600EF0068;
 					};
 				};
 			};
@@ -115,6 +191,7 @@
 			projectRoot = "";
 			targets = (
 				8FCCEC881E8BED8600EF0068 /* ClassAttendance3 */,
+				8FCCECAB1E8C03AB00EF0068 /* ClassAttendance3UnitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +207,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8FCCECAA1E8C03AB00EF0068 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,12 +221,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FCCECA11E8BFBEF00EF0068 /* ClassAttendance3.xcdatamodeld in Sources */,
+				8FCCECA71E8C001F00EF0068 /* DataController.swift in Sources */,
+				8FCCECA41E8BFC9F00EF0068 /* Student+CoreDataClass.swift in Sources */,
 				8FCCEC8F1E8BED8600EF0068 /* ViewController.swift in Sources */,
 				8FCCEC8D1E8BED8600EF0068 /* AppDelegate.swift in Sources */,
+				8FCCECA51E8BFC9F00EF0068 /* Student+CoreDataProperties.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FCCECA81E8C03AB00EF0068 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FCCECB71E8C08A100EF0068 /* CoreDataTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8FCCECB21E8C03AB00EF0068 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FCCEC881E8BED8600EF0068 /* ClassAttendance3 */;
+			targetProxy = 8FCCECB11E8C03AB00EF0068 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		8FCCEC901E8BED8600EF0068 /* Main.storyboard */ = {
@@ -283,6 +387,34 @@
 			};
 			name = Release;
 		};
+		8FCCECB41E8C03AB00EF0068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PXWVL754BD;
+				INFOPLIST_FILE = ClassAttendance3UnitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iasonm.ClassAttendance3UnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClassAttendance3.app/ClassAttendance3";
+			};
+			name = Debug;
+		};
+		8FCCECB51E8C03AB00EF0068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PXWVL754BD;
+				INFOPLIST_FILE = ClassAttendance3UnitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iasonm.ClassAttendance3UnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClassAttendance3.app/ClassAttendance3";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -303,7 +435,28 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
+		8FCCECB31E8C03AB00EF0068 /* Build configuration list for PBXNativeTarget "ClassAttendance3UnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FCCECB41E8C03AB00EF0068 /* Debug */,
+				8FCCECB51E8C03AB00EF0068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8FCCEC9F1E8BFBEF00EF0068 /* ClassAttendance3.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8FCCECA01E8BFBEF00EF0068 /* ClassAttendance3.xcdatamodel */,
+			);
+			currentVersion = 8FCCECA01E8BFBEF00EF0068 /* ClassAttendance3.xcdatamodel */;
+			path = ClassAttendance3.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8FCCEC811E8BED8600EF0068 /* Project object */;
 }
